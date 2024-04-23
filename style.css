@@ -116,3 +116,25 @@ form label, form p{
 .checkbox{
     margin: 20px 0
 }
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+transition:1s all;
+}
+
+
+
+
+.enviar:hover{
+    background: black;
+    transform: scale(1.2);
+
+}
