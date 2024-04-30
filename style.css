@@ -130,11 +130,23 @@ form label, form p{
 transition:1s all;
 }
 
-
-
-
 .enviar:hover{
     background: black;
     transform: scale(1.2);
 
+}
+
+table{
+    margin: 20px 0 20px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+tr, td{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
